@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F3195B526B3DF510091B57A /* CollectColorOfCarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3195B426B3DF510091B57A /* CollectColorOfCarsApp.swift */; };
+		7F3195B726B3DF510091B57A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3195B626B3DF510091B57A /* ContentView.swift */; };
+		7F3195B926B3DF570091B57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3195B826B3DF560091B57A /* Assets.xcassets */; };
+		7F3195BC26B3DF570091B57A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3195BB26B3DF570091B57A /* Preview Assets.xcassets */; };
+		7FC5AEB426BFB92900B6467B /* CarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5AEB326BFB92900B6467B /* CarCard.swift */; };
+		7FC5AEB626BFCF4400B6467B /* ResultOfCarsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5AEB526BFCF4400B6467B /* ResultOfCarsCollectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F3195B126B3DF510091B57A /* CollectColorOfCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectColorOfCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3195B426B3DF510091B57A /* CollectColorOfCarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectColorOfCarsApp.swift; sourceTree = "<group>"; };
+		7F3195B626B3DF510091B57A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F3195B826B3DF560091B57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F3195BB26B3DF570091B57A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F3195BD26B3DF570091B57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC5AEB326BFB92900B6467B /* CarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCard.swift; sourceTree = "<group>"; };
+		7FC5AEB526BFCF4400B6467B /* ResultOfCarsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultOfCarsCollectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F3195AE26B3DF510091B57A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F3195A826B3DF510091B57A = {
+			isa = PBXGroup;
+			children = (
+				7F3195B326B3DF510091B57A /* CollectColorOfCars */,
+				7F3195B226B3DF510091B57A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3195B226B3DF510091B57A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F3195B126B3DF510091B57A /* CollectColorOfCars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3195B326B3DF510091B57A /* CollectColorOfCars */ = {
+			isa = PBXGroup;
+			children = (
+				7F3195B426B3DF510091B57A /* CollectColorOfCarsApp.swift */,
+				7F3195B626B3DF510091B57A /* ContentView.swift */,
+				7FC5AEB326BFB92900B6467B /* CarCard.swift */,
+				7FC5AEB526BFCF4400B6467B /* ResultOfCarsCollectionView.swift */,
+				7F3195B826B3DF560091B57A /* Assets.xcassets */,
+				7F3195BD26B3DF570091B57A /* Info.plist */,
+				7F3195BA26B3DF570091B57A /* Preview Content */,
+			);
+			path = CollectColorOfCars;
+			sourceTree = "<group>";
+		};
+		7F3195BA26B3DF570091B57A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F3195BB26B3DF570091B57A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3195B026B3DF510091B57A /* CollectColorOfCars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3195C026B3DF570091B57A /* Build configuration list for PBXNativeTarget "CollectColorOfCars" */;
+			buildPhases = (
+				7F3195AD26B3DF510091B57A /* Sources */,
+				7F3195AE26B3DF510091B57A /* Frameworks */,
+				7F3195AF26B3DF510091B57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectColorOfCars;
+			productName = CollectColorOfCars;
+			productReference = 7F3195B126B3DF510091B57A /* CollectColorOfCars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3195A926B3DF510091B57A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7F3195B026B3DF510091B57A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F3195AC26B3DF510091B57A /* Build configuration list for PBXProject "CollectColorOfCars" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F3195A826B3DF510091B57A;
+			productRefGroup = 7F3195B226B3DF510091B57A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3195B026B3DF510091B57A /* CollectColorOfCars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F3195AF26B3DF510091B57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3195BC26B3DF570091B57A /* Preview Assets.xcassets in Resources */,
+				7F3195B926B3DF570091B57A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F3195AD26B3DF510091B57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3195B726B3DF510091B57A /* ContentView.swift in Sources */,
+				7F3195B526B3DF510091B57A /* CollectColorOfCarsApp.swift in Sources */,
+				7FC5AEB626BFCF4400B6467B /* ResultOfCarsCollectionView.swift in Sources */,
+				7FC5AEB426BFB92900B6467B /* CarCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F3195BE26B3DF570091B57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F3195BF26B3DF570091B57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F3195C126B3DF570091B57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CollectColorOfCars/Preview Content\"";
+				DEVELOPMENT_TEAM = WM9XM3NC73;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CollectColorOfCars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.CollectColorOfCars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7F3195C226B3DF570091B57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CollectColorOfCars/Preview Content\"";
+				DEVELOPMENT_TEAM = WM9XM3NC73;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CollectColorOfCars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.CollectColorOfCars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F3195AC26B3DF510091B57A /* Build configuration list for PBXProject "CollectColorOfCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3195BE26B3DF570091B57A /* Debug */,
+				7F3195BF26B3DF570091B57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3195C026B3DF570091B57A /* Build configuration list for PBXNativeTarget "CollectColorOfCars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3195C126B3DF570091B57A /* Debug */,
+				7F3195C226B3DF570091B57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F3195A926B3DF510091B57A /* Project object */;
+}
