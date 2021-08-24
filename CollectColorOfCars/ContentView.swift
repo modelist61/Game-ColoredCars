@@ -75,10 +75,6 @@ struct ContentView: View {
                 .blur(radius: showTotalResult ? 0 : 8)
                 .animation(.easeInOut)
                 
-                //            ForEach(totalCard, id: \.self) { name in
-                //                Text("\(name)")
-                //            }
-                
                 ZStack {
                     RoundedRectangle(cornerRadius: 20)
                         .overlay(RoundedRectangle(cornerRadius: 20)
@@ -88,7 +84,6 @@ struct ContentView: View {
                         .foregroundColor(Color("gradientColor1"))
                         .shadow(color: Color("shadowColor1"), radius: 8, x: 8, y: 8)
                         .shadow(color: Color("shadowColor2"), radius: 7, x: -8, y: -8)
-//                        .shadow(color: animationToggle ? .clear : .white, radius: shadowRadius, x: 0.0, y: 0.0)
                     
                     Text(showTotalResult ? "Finish" : "Restart")
                         .fontWeight(.bold)
